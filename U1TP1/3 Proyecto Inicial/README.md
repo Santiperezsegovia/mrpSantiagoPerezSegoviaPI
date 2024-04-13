@@ -1,32 +1,19 @@
-# Instalación y Configuración de Visual Studio Code
+# ESP32 HTTP Server Example
 
-Este tutorial te guiará a través de los pasos para instalar y configurar Visual Studio Code, así como para instalar extensiones útiles y utilizar las herramientas de Wokwi y PlatformIO para el desarrollo de proyectos de hardware.
+ESP32 Async Web Server example: control 2 LEDs from a web page hosted on the ESP32 using the [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer).
 
-## Instalación de Visual Studio Code
+Use [Wokwi for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=wokwi.wokwi-vscode) to simulate this project.
 
-Sigue estos pasos para instalar Visual Studio Code en tu sistema:
+## Building
 
-1. Descarga el instalador de Visual Studio Code desde el sitio web oficial: [Visual Studio Code](https://code.visualstudio.com/).
-2. Ejecuta el instalador y sigue las instrucciones en pantalla para completar la instalación.
+This is a [PlatformIO](https://platformio.org) project. To build it, [install PlatformIO](https://docs.platformio.org/en/latest/core/installation/index.html), and then run the following command:
 
-## Configuración de Visual Studio Code
+```
+pio run
+```
 
-Después de instalar Visual Studio Code, puedes personalizarlo según tus preferencias:
+## Simulating
 
-1. Configura tus ajustes de usuario y preferencias de editor.
-2. Instala temas y personaliza la apariencia de Visual Studio Code.
-3. Explora y configura las extensiones disponibles para adaptar Visual Studio Code a tus necesidades específicas.
+To simulate this project, install [Wokwi for VS Code](https://marketplace.visualstudio.com/items?itemName=wokwi.wokwi-vscode). Open the project directory in Visual Studio Code, press **F1** and select "Wokwi: Start Simulator".
 
-## Instalación de Extensiones
-
-Visual Studio Code cuenta con un vasto ecosistema de extensiones que amplían su funcionalidad. Algunas extensiones útiles para el desarrollo de proyectos de hardware incluyen:
-
-- PlatformIO: Herramienta para el desarrollo de firmware para microcontroladores.
-- Wokwi: Plataforma de simulación de hardware en línea.
-
-## Uso de Wokwi y PlatformIO
-
-Una vez que hayas instalado las extensiones de Wokwi y PlatformIO, puedes comenzar a utilizarlas para desarrollar proyectos de hardware:
-
-1. Utiliza Wokwi para simular y probar circuitos electrónicos en línea antes de implementarlos en hardware real.
-2. Utiliza PlatformIO para desarrollar y cargar firmware en microcontroladores de manera eficiente.
+Once the simulation is running, open http://localhost:8180 in your web browser to interact with the simulated HTTP server.
