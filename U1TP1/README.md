@@ -12,7 +12,7 @@ En la carpeta U1TP1 se desarrollan 3 niveles, pertenecientes al primer trabajo p
 ---
 
 # Nivel 1 Fundamentos de Git-GitHub
-Este repositorio contiene información sobre los fundamentos de Git-GitHub sietema
+Este repositorio contiene información sobre los fundamentos de Git-GitHub.
 # Nivel 2 Fundamentos del IoT
 
 Este repositorio contiene información sobre los fundamentos del Internet de las Cosas (IoT), una tecnología emergente que está transformando diversos sectores de la industria.
